@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu" />
+    <CudaCompile Include="src\blackhole.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\gauss.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\gaussRowCol.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\jpeg.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\star_sky.cu">
+      <Filter>src</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\bmp.c">
+      <Filter>src</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{e036b0ff-664b-4a97-bd08-5757db07cdee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{1dc23282-68e7-4572-a661-97674025b1c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images">
+      <UniqueIdentifier>{8e25f8d7-31a7-433a-a06d-ea930e7cfe45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\gl_helper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\blackhole.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\constants.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rk4.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vector3.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\matrix3.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math_helper.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\star_sky.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bitmap_helper.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vector2.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gauss.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bmp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gaussRowCol.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeg.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cu_assert.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

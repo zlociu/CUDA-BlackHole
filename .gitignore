@@ -1,0 +1,17 @@
+/[Bb]in/
+/[Oo]bj/
+/x64/
+/lib/
+/images/
+*/GL/
+
+/.ionide/
+/.vs/
+/.vscode/
+
+*.bmp
+*.scene
+*.py
+
+adisk.jpg
+bgedit.jpg
