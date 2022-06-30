@@ -75,6 +75,7 @@ But there is a hope! Gaussian function is very special, two-dimensional blur can
 |:-------:|:---------:|
 | 2D gauss (101x101) | 83 | 
 | 2x 1D gauss (501) | 7 |
+
 __Q:__ Wait! How can I compare these results? Different sizes and ... you know ...      
 __A:__ Maybe... Well, all You should know is that second version is faster, much faster.  
 
