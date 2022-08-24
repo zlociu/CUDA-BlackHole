@@ -102,8 +102,8 @@ I will give an example: copying 3,5MB of memory from GPU to CPU (direction isn't
 As You can see, difference is huge. Of course everything has two sides of the same coin. Allocating too much CPU memory as pinned can decrease efficiency of processing data on CPU, so please be careful allocating next 2GB of pinned memory.  
 
 ### Time results
-These results shows total time of GPU computation, __not__ include creating _.bmp_ or _.jpeg_ file. Of course, results depend on the machine on which time will be measured. RAM usage is the maximum amount used at the same time. Through the computation, parts of memory are deallocated to reduce usage.
-| resolution | time (ms) | RAM max usage (GiB)|
+These results shows total time of GPU computation, __not__ include creating _.bmp_ or _.jpeg_ file. Of course, results depend on the machine on which time will be measured. VRAM usage is the maximum amount used at the same time. Through the computation, parts of memory are deallocated to reduce usage.
+| resolution | time (ms) | VRAM max usage (GiB)|
 |:----------:|:---------:|:------------:|
 |1920x1080   |25        | 0,18 |
 |3820x2160   |250       | 0,72 |
